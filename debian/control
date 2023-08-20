@@ -26,5 +26,6 @@ Depends: ${misc:Depends},
          gjs,
          upower,
          curl,
+         gnome-bluetooth,
 Provides: ags
 Description: flexible js powered gtk widget framework
