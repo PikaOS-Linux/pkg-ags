@@ -14,6 +14,8 @@ cp -rvf ../debian ./
 apt-get update
 apt-get build-dep ./ -y
 
+npm install
+
 # Build package
 dpkg-buildpackage --no-sign
 
