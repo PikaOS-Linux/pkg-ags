@@ -18,10 +18,12 @@ Rules-Requires-Root: no
 
 Package: ags
 Architecture: linux-any
-Depends: ${misc:Depends}, 
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
          cava,
          sassc,
          playerctl,
+         gjs,
          upower,
          curl,
 Provides: ags
