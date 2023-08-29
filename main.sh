@@ -5,7 +5,7 @@ DEBIAN_FRONTEND=noninteractive
 # Clone Upstream
 git clone https://github.com/ferrreo/ags.git
 cd ./ags
-git checkout mpris-use-hash-for-cache
+git checkout systray
 git submodule update --init
 cp -rvf ../debian ./
 
