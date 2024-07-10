@@ -3,10 +3,8 @@
 DEBIAN_FRONTEND=noninteractive
 
 # Clone Upstream
-git clone https://github.com/ferrreo/ags.git
+git clone --recurse-submodules https://github.com/Aylur/ags -b v1.8.2
 cd ./ags
-git checkout systray
-git submodule update --init
 cp -rvf ../debian ./
 
 
