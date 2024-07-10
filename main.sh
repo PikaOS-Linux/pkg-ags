@@ -17,6 +17,8 @@ apt-get build-dep ./ -y
 
 npm install
 
+npm install -g typescript@latest
+
 # Build package
 dpkg-buildpackage --no-sign
 
